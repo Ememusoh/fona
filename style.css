@@ -130,6 +130,7 @@ font-size: 25px;
     border: 15px solid #87C9C5;
     background: #141414;
     margin-top: 90px;
+    padding: 5px 0px 5px 15git0px;
   }
 
   .skills p{
@@ -142,14 +143,12 @@ font-size: 25px;
     color: #87C9C5;
   }
 
-  .skills-list{
-    text-align: center;
-  }
 
   .skills ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    line-height: 2;
     
   }
 

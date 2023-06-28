@@ -79,16 +79,16 @@ font-size: 25px;
     background: url("img1.png");
     width: 750px;
     height: 737px;
-    background-size: cover;
     background-repeat: no-repeat;
   }
   
 
-  .about-me{
+  .subtitle{
     text-align: center;
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 70px;
+    margin-top: 50px;
   }
 
   .img2{
@@ -125,11 +125,12 @@ font-size: 25px;
   
   .skills{
     width: 1338px;
-    height: 600px;
+    height: 550px;
     border-radius: 63px;
     border: 15px solid #87C9C5;
     background: #141414;
     margin-top: 90px;
+   margin-bottom: 100px;
     padding: 5px 0px 0px 150px;
   }
 

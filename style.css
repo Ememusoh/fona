@@ -130,5 +130,41 @@ font-size: 25px;
     border: 15px solid #87C9C5;
     background: #141414;
     margin-top: 90px;
-
   }
+
+  .skills p{
+   
+    font-size: 40px;
+    font-family: Lexend;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 35px;
+    color: #87C9C5;
+  }
+
+  .skills-list{
+    text-align: center;
+  }
+
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .skills li {
+    display: block;
+    background-image: url("es2.png");
+    background-repeat: no-repeat; 
+    background-position: left;
+    height: 48px;
+    padding-left: 44px;
+    padding-top: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: Lexend;
+    font-weight: 700;
+  
+  }
+  

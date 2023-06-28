@@ -123,14 +123,17 @@ font-size: 25px;
     box-shadow: none;
   }
   
-  .skills{
-    width: 1338px;
-    height: 550px;
+  .box{
     border-radius: 63px;
     border: 15px solid #87C9C5;
     background: #141414;
     margin-top: 90px;
-   margin-bottom: 100px;
+    margin-bottom: 100px;
+    
+  }
+
+  .skills{
+    height: 550px;
     padding: 5px 0px 0px 150px;
   }
 
@@ -170,7 +173,17 @@ font-size: 25px;
 
   .card{
     padding: 30px;
-    border: none;
-    
+    border: none;    
+  }
+
+  .card-img-top{
+    width: 80%;
+  }
+
+  a.btn.download-btn{
+    margin: 10px 0px 7px 0px;
   }
   
+  .experience{
+    height: 700px;
+  }

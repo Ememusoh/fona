@@ -1,7 +1,9 @@
 * {
 margin: 0;
 padding: 0;
-font-family: Lexend;
+font-family: 'Lexend', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 color: #000;
 
 }
@@ -32,7 +34,7 @@ font-size: 25px;
 }
 .btn {
     display: inline-block;
-    padding:5px 15px;
+    padding:0.5px 15px;
     margin-left: 60px;
     margin-bottom: 7px;
     font-size: 18px;
@@ -80,14 +82,25 @@ font-size: 25px;
     background-size: cover;
     background-repeat: no-repeat;
   }
+  
 
   .about-me{
     text-align: center;
     font-size: 48px;
     font-weight: 600;
+    margin-bottom: 70px;
+  }
+
+  .img2{
+    width: 349px;
+    height: 372px;
   }
 
   .about-text{
     color: #000;
-    font-size: 24px; 
+    font-size: 22px;
+    margin-top: 90px;
+    padding: 20px;
+
+    
   }

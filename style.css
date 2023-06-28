@@ -99,8 +99,36 @@ font-size: 25px;
   .about-text{
     color: #000;
     font-size: 22px;
-    margin-top: 90px;
+    margin-top:px;
     padding: 20px;
+  }
 
-    
+  .about-text p{
+    margin-left: 50px;
+  }
+
+  .download-btn{
+    margin-top: 20px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, #05E0C6 0%, rgba(82, 101, 137, 0.64) 100%); 
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: none;
+  }
+
+  .download-btn:hover {
+    background-color: RoyalBlue;
+    box-shadow: none;
+  }
+  
+  .skills{
+    width: 1338px;
+    height: 694px;
+    border-radius: 63px;
+    border: 15px solid #87C9C5;
+    background: #141414;
+    margin-top: 90px;
+
   }

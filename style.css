@@ -30,6 +30,7 @@ font-size: 25px;
 .header-section i{
     color: skyblue;
     margin: 0 15px;
+    cursor: pointer;
     
 }
 .btn {
@@ -185,7 +186,7 @@ font-size: 25px;
   }
   
   .experience{
-    height: 700px;
+    height: auto;
     color: #fff;
    
   }
@@ -193,7 +194,7 @@ font-size: 25px;
     font-size: 40px;
     font-family: Lexend;
     font-weight: 600;
-    padding-left: 345px;
+    padding-left: 410px;
     margin: 35px 0px 50px 0px;
     color: #87C9C5;
   }
@@ -211,7 +212,11 @@ font-size: 25px;
   .heading1{
     font-size: 30px;
     font-weight: 400;
-   
+  }
+
+  .heading2{
+    font-size: 20px;
+    font-weight: 200;
   }
 
   .experience ul{
@@ -227,4 +232,5 @@ font-size: 25px;
     background-position: left;
     padding-left: 44px;
     padding-top: 5px;
+    margin-bottom: 30px;
   }

@@ -254,7 +254,7 @@ font-size: 25px;
     width: 20%;
   }
 
-  .footer-icon{
-    width: 50%;
-    margin: 70px auto 40px auto;
+  .footer-icon {
+   text-align: center;
+    margin: 60px auto 60px auto;
   }

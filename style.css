@@ -234,3 +234,27 @@ font-size: 25px;
     padding-top: 5px;
     margin-bottom: 30px;
   }
+  
+  form div{
+    display: block;
+    width: 50%;
+    margin: 20px auto 20px auto;
+    
+  }
+
+  .form-control{ 
+    font-size: 15px;
+    font-weight: 700;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  .send-btn{
+    margin: 60px auto 10px auto;
+    width: 20%;
+  }
+
+  .footer-icon{
+    width: 50%;
+    margin: 70px auto 40px auto;
+  }

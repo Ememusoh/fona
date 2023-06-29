@@ -1,6 +1,7 @@
 * {
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 font-family: 'Lexend', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;
@@ -78,8 +79,8 @@ font-size: 25px;
 
   .img1{
     background: url("img1.png");
-    width: 750px;
-    height: 737px;
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
   }
   
@@ -93,8 +94,8 @@ font-size: 25px;
   }
 
   .img2{
-    width: 349px;
-    height: 372px;
+    width: 100%;
+    height: auto;
   }
 
   .about-text{
@@ -134,8 +135,10 @@ font-size: 25px;
   }
 
   .skills{
-    height: 550px;
-    padding: 5px 0px 0px 150px;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px 50px 150px;
+    
   }
 
   .skills p{
@@ -143,8 +146,8 @@ font-size: 25px;
     font-size: 40px;
     font-family: Lexend;
     font-weight: 600;
-    padding-left: 345px;
-    margin: 35px 0px 50px 0px;
+    text-align: center;
+    margin-top: 20px;
     color: #87C9C5;
   }
 
@@ -194,15 +197,15 @@ font-size: 25px;
     font-size: 40px;
     font-family: Lexend;
     font-weight: 600;
-    padding-left: 410px;
+    text-align: center;
     margin: 35px 0px 50px 0px;
     color: #87C9C5;
   }
   
 
   .codeimg{
-      width: 580px;
-      height: 532px;
+      width: 100%;
+      height: auto;
       object-fit: cover;
       display: block;
       margin-left: auto;
@@ -257,4 +260,9 @@ font-size: 25px;
   .footer-icon {
    text-align: center;
     margin: 60px auto 60px auto;
+  }
+
+
+  @media screen {
+    
   }

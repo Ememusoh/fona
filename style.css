@@ -78,10 +78,10 @@ font-size: 25px;
   }
 
   .img1{
-    background: url("img1.png");
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
+    object-fit: cover;
   }
   
 
@@ -94,8 +94,8 @@ font-size: 25px;
   }
 
   .img2{
-    width: 100%;
-    height: auto;
+     width: 100%;
+      height: auto;
   }
 
   .about-text{
@@ -210,7 +210,7 @@ font-size: 25px;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      width: 100%;
     }
   .heading1{
     font-size: 30px;
